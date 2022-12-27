@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="Pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="stayle.css">
+    <!-- fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap" rel="stylesheet">
+    <!-- normalização -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontes Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <title>Decodificador</title>
+</head>
+
+<body>
+
+    <header class="logo">
+        <main class="main">
+            <section class="geral">
+                <img src="img/Frame 6.png" alt="">
+                <div class="container">
+                    <textarea class="input-texto" cols="20" rows="20" placeholder="Digite seu texto"></textarea>
+                    <button class="encriptar" onclick="bntEncriptar()">Criptografar</button>
+                <button class="desencriptar" onclick="bntDesencriptar()">Descriptografar</button>
+                </div>
+                
+                <div class="quadro">
+                    <textarea class="mensagem" cols="20" rows="15">
+                    </textarea>
+                    <!-- <img src="img/High quality products 1 1.png" alt=""> -->
+                    <p class="texto">Nenhuma mensagen encontrada</p>
+
+                    <button class="copiar" id="copiarMsg" onclick="copiar()">
+                        Copiar
+                    </button>
+                </div>
+
+            </section>
+        </main>
+    </header>
+
+</body>
+
+<!-- javaScript -->
+<script src="script.js"></script>
+
+</html>

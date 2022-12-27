@@ -1,0 +1,73 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F3F5FC;
+}
+
+
+.quadro {
+    /* Rectangle 1 */
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    left: 950px;
+    top: 38px;
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.mensagem {
+    margin-top: 10rem;
+    background-image: url(/img/High\ quality\ products\ 1\ 1.png);
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    border: none;
+    text-align: center;
+    background-size: contain;
+}
+.copiar {
+    margin-top: 2%;
+}
+
+.texto {
+    margin-top: 5%;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+.input-texto {
+    border-color: #F3F5FC;
+    background: #F3F5FC;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    width: 800px;
+
+    /* font */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    /* line-height: 150%; */
+    color: #0A3871;
+}
+
+.mensagem {
+    width: 297px;
+    height: 317px
+}
