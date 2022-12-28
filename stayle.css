@@ -42,7 +42,8 @@ div.container {
   background-position: center;
 }
 textarea.mensagem::placeholder {
-  color: #fd0000;
+  color: #0a3871;
+  /* font-style: italic; */
   text-align: center;
   font-weight: 400;
   font-size: 32px;
@@ -134,4 +135,5 @@ textarea.input-texto {
   font-size: 32px;
   color: #0a3871;
 }
+
 

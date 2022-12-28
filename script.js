@@ -1,9 +1,5 @@
 const inputText = document.querySelector(".input-texto");
 const mensagem = document.querySelector(".mensagem");
-const quadro = document.querySelector(".quadro");
-
-// let txt = quadro;
-// txt.innerHTML = 'ola'
 
 function bntEncriptar() {
   const textoEncriptada = encriptar(inputText.value);
